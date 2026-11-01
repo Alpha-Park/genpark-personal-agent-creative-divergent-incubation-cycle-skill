@@ -1,0 +1,24 @@
+{
+  "name": "genpark-personal-agent-creative-divergent-incubation-cycle-skill",
+  "version": "1.0.0",
+  "description": "Models Wallas 4-stage creativity, detects cognitive fixation during mental impasses, and schedules Default Mode Network incubation breaks.",
+  "tools": [
+    {
+      "name": "evaluate_incubation_necessity",
+      "description": "Evaluates cognitive impasse fixation index and DMN associative spreading activation potential.",
+      "parameters": {
+        "focus_duration_continuous_minutes": "float",
+        "impasse_friction_score": "float (optional, default 7.5)",
+        "conceptual_distance_tier": "string (optional, default 'high')"
+      }
+    },
+    {
+      "name": "schedule_unconscious_incubation_window",
+      "description": "Prescribes optimal low-demand Default Mode Network incubation activities and capture rules.",
+      "parameters": {
+        "work_domain": "string (optional, default 'software_architecture')",
+        "available_break_minutes": "float (optional, default 30.0)"
+      }
+    }
+  ]
+}
